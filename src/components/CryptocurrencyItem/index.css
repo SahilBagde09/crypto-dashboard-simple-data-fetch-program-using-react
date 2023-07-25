@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.crypto-data-container {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.crypto-name-img-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 80px;
+  width: 60%;
+}
+@media (max-width: 576px) {
+  .crypto-name-img-container {
+    padding-left: 20px;
+  }
+}
+.crypto-name {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Roboto;
+  margin-left: 18px;
+}
+@media (max-width: 576px) {
+  .crypto-name {
+    font-size: 14px;
+  }
+}
+.crypto-coin-image {
+  height: 30px;
+  width: 30px;
+}
+@media (max-width: 576px) {
+  .crypto-coin-image {
+    height: 20px;
+    width: 20px;
+  }
+}
+.currency-rate {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: Roboto;
+  margin-left: 20px;
+  width: 20%;
+  font-weight: 400;
+}
+@media (max-width: 576px) {
+  .currency-rate {
+    font-size: 14px;
+  }
+}
